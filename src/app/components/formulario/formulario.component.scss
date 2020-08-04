@@ -1,0 +1,16 @@
+header{
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+   }
+   
+   
+   #content{
+    float: left;
+    width: calc(80%-80px);
+    min-height: 500px;
+    background-color: green;
+    padding: 40px;
+}

@@ -1,5 +1,21 @@
-<input type="text" name="tarea" [(ngModel)]="usuario">   
-&nbsp;
-<input type= "text" name="Tarea"[(ngModel)]="descripcion">
-&nbsp;
-<button (click) = "procesar()">Agregar tarea</button>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Proyecto Final de Angular</title>
+        <link rel="stylesheet" href="formulario.component.scss"/>
+    </head>
+    <body>
+       <div id="container">
+         <header>
+            <h1>Proyecto Final  Jorge Barrantes</h1>
+          </header>
+          <input type="text" name="tarea" [(ngModel)]="usuario" placeholder="Usuario">
+          &nbsp;
+          <input type="text" name="tarea" [(ngModel)]="descripcion" placeholder="Descripcion">
+          &nbsp;
+          <button (click)="procesar()" >Agregar Tarea</button>
+       </div>
+       <div class="clearfix"></div>
+    </body>
+</html>

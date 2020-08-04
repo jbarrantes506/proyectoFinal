@@ -26,7 +26,8 @@ export class FormularioComponent implements OnInit {
       tarea.fecha = new Date();
       this.tareaSvc.tareas.push(tarea);
       console.log(tarea);
-
+      this.tareaSvc.addTarea(tarea).subscribe((resp) => console.log('RESPONSE', resp));
+      tarea.estado = 'A'; 
     }
 
   }
